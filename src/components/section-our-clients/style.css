@@ -1,0 +1,38 @@
+.Our-Client{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.Our-Client p{
+    margin-top: 8px;
+
+}
+
+.Logo-clients{
+    display:flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+    margin-top: 16px;
+}
+
+@media (max-width: 480px){
+    .Our-Client{
+        width: 90%;
+        margin-top: 10px;
+        margin: 0 auto;
+
+    }
+
+    .Logo-clients{
+        width: 90%;
+        gap: 30px;
+        margin: 0 auto;
+        margin-left: 40px;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       margin-bottom: 50px;
+    }
+
+}

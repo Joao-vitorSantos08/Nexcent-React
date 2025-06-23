@@ -1,0 +1,57 @@
+.How-to-design{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 49.47px;
+    align-items: center;
+    padding: 48px;
+}
+
+.How-to-design-content{
+    width: 601px;
+    padding-top: 62px;
+
+}
+
+
+
+.How-to-design h2{
+    color: var(--color-neutral-d_grey);
+
+
+}
+
+.How-to-design p {
+    margin-bottom: 16px;
+    line-height: 1.5;
+   
+
+}
+
+
+@media (max-width: 480px){
+    .How-to-design{
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .How-to-design-img{
+        margin-right: 60px;
+    }
+
+    .How-to-design-content{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .How-to-design-content h2, .How-to-design-content p{
+        width: 95%;
+        text-align: start;
+    }
+
+    .How-to-design-content p{
+        width: 370px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

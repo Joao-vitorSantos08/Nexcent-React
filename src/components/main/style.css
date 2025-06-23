@@ -1,0 +1,48 @@
+main{
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px ;
+    
+}
+
+.content-lessons{
+    width: 657px;
+}
+
+h1{
+    font-size: 64px;
+    color: var( --color-neutral-d_grey);
+    font-weight: 600;
+}   
+
+.content-lessons h1 span{
+    color: var(--color-primary);
+}
+
+.content-lesso p{
+    margin-top: 20px;
+}
+
+@media (max-width: 480px){
+    main{
+        flex-direction: column-reverse;
+        
+    }
+
+    main img{
+        width: 350px;
+        text-align: center;
+        
+    }
+
+    .content-lessons{
+        width: 90%;
+    }
+
+    .content-lessons h1{
+        font-size: 50px;
+    }
+}

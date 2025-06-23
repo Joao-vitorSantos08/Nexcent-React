@@ -1,0 +1,33 @@
+.Pellentesque{
+    text-align: center;
+    background-color: var(--color-neutral-silver);  
+    padding: 32px;
+}
+
+.Pellentesque h2{
+    font-size: 64px;
+    width: 670px;
+    margin:  0 auto;
+    padding: 32px 0px;
+}
+
+.Pellentesque a {
+    text-decoration: none;
+}
+
+.Pellentesque button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;
+
+
+}
+
+@media (max-width: 480px){
+    .Pellentesque h2{
+        width: 100%;
+        font-size: 60px;
+    }
+
+}

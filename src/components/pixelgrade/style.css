@@ -1,0 +1,43 @@
+.Pixelgrade{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    margin-top: 42px;
+    padding: 52px;
+}
+
+.Pixelgrade-content{
+    width: 661px;   
+}
+
+.Pixelgrade-content h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+    width: 526;
+}
+
+.Pixelgrade-content p{
+    margin-top: 16px;
+
+}
+
+@media (max-width: 480px){
+    .Pixelgrade{
+        flex-direction: column;
+        align-items: center;
+        padding: 52px 0px;
+        margin-top: 10px;
+        text-align: start;
+    }
+    
+    .Pixelgrade-content{
+        width: 90%;
+        font-size: 20px;
+      
+    }
+
+    .Pixelgrade-content h2, .Pixelgrade-content p{
+       width: 350px;
+        
+    }
+}

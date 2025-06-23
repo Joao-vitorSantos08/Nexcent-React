@@ -1,0 +1,145 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    position: relative;
+}
+
+.logo{
+    padding: 30px 0px;
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    transition: 05s;
+}
+
+.nav-header ul a{
+    text-decoration: none;
+    color: #18191F;
+   
+}
+
+.nav-header ul a :hover{
+    color: var(--color-primary);
+    transform: translateY(-1px);
+}
+
+ 
+
+.active{
+    font-weight: bold;
+}
+
+.btn-login{
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-SignUp{
+    color: var(--color-neutral-white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+
+.menu-toggle{
+    flex-direction: column;
+    width: 30px;
+    height: 22px; 
+    display: none; 
+    cursor: pointer;  
+ }
+ 
+ .menu{
+     background-color: black;
+     height: 4px;
+     width: 100%;
+     margin: 2px;
+     transition: 0.5s ease;
+ }
+
+ .menu-toggle.active :nth-child(1){
+    background-color: red;
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active :nth-child(2){
+    opacity: 0;
+
+}
+
+.menu-toggle.active :nth-child(3){
+    background-color: red;
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+
+.navegation-mobile{
+    display: none;
+  
+}
+
+@media (max-width: 480px){
+    .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navegation-mobile{
+    display: flex;
+    background-color: var(--color-neutral-grey);
+    border-radius: 3px;
+    padding: 10px 15px 0px;
+    align-items: end;
+    text-align: end;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    right: 0px;
+    top: 100%;
+    gap: 20px;
+    visibility: hidden;
+    transition: opacity 0.8s ease;
+
+}
+
+
+ .nav-header-mobile ul{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     list-style: none;
+     gap: 10px;
+     
+ }
+ 
+ .nav-header-mobile ul a{
+    text-decoration: none;
+    color: var(--color-neutral-black);
+    font-weight: bold;
+ }
+
+ .navegation-mobile.show{
+     opacity: 1;
+     visibility: visible;
+ }
+
+}

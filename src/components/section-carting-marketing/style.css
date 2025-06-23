@@ -1,0 +1,69 @@
+.caring-marketing{
+    text-align: center;
+}
+
+.caring-marketing h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p{
+    width: 628px;
+    margin: 0 auto;
+}
+
+.caring-marketing-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 94.6px;
+}
+
+.caring-cards{
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content{
+    box-sizing: border-box;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    padding: 16px;
+    position: absolute;
+    bottom: -53px;
+    left: 26px;
+}
+
+.caring-cards-content h3{
+    font-size: 20px;
+    color: var(--color-neutral-grey);
+}
+
+.caring-cards-content a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.caring-cards-content a p{
+    color: var(--color-primary);
+}
+
+@media (max-width: 480px){
+     .caring-marketing P{
+        width: 90%;
+    }
+
+    .caring-marketing-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 100PX;
+    }
+}
