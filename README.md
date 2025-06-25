@@ -14,6 +14,10 @@
  <a href="#user-content--licença">Licença</a>
 </p>
 
+## 💻 Sobre o projeto
+Este projeto foi desenvolvido durante meu curso de JavaScript. É uma recriação do meu primeiro site feito com HTML e CSS, agora utilizando React e ferramentas modernas como o Vite, com foco em componentização e organização do código.
+
+
 ## 📄 Descrição do entregável (React + Vite)
 
 - `src/`: Pasta que contém todo o código-fonte da aplicação React.
@@ -38,9 +42,6 @@
 - `README.md`: Documento de descrição do projeto (geralmente com instruções de uso e instalação).
 
 - `vite.config.js`: Configurações personalizadas do Vite.
-
-## 💻 Sobre o projeto
-Este projeto foi desenvolvido durante meu curso de JavaScript. É uma recriação do meu primeiro site feito com HTML e CSS, agora utilizando React e ferramentas modernas como o Vite, com foco em componentização e organização do código.
 
 ## 🎨 Layout
 
