@@ -47,6 +47,13 @@ Este projeto foi desenvolvido durante meu curso de JavaScript. É uma recriaçã
 
 ![Mobile3](https://github.com/Joao-vitorSantos08/Nexcent/blob/main/src/assets/images/Thumbnail.png)
 
+ ### ✅ Pré-requisitos
+  
+ - Navegador web moderno (Chrome, Firefox, Edge, Safari) para abrir e testar o projeto  
+ - Editor de código recomendado: Visual Studio Code
+ - Node.js (versão recomendada: LTS)
+ -  Git	
+
 ## 🚀 Como executar o projeto
 
 1. Clone o repositório:
@@ -57,22 +64,27 @@ Este projeto foi desenvolvido durante meu curso de JavaScript. É uma recriaçã
    ```bash
    cd Nexcent-React
 
- ### ✅ Pré-requisitos
-  
- - Navegador web moderno (Chrome, Firefox, Edge, Safari) para abrir e testar o projeto  
- - Editor de código recomendado: Visual Studio Code
+3. Instale as dependências:
+   ```
+   npm install
 
-   ## 🚀 Tecnologias utilizadas
+4. Inicie o servidor de desenvolvimento:
+   ```
+   npm run dev
+
+## 🚀 Tecnologias utilizadas
 
 - **React** – Biblioteca para construção de interfaces com componentes
 - **Vite** – Ferramenta para criação e build de projetos React
-- **HTML5 (JSX)** – Estrutura dos componentes
-- **CSS3** – Estilização dos elementos
+- **JSX** – Estrutura dos componentes
+- **CSS** – Estilização dos elementos
 - **Node.js** – Ambiente necessário para rodar o Vite
 
 ## 🛠️ Ferramentas
 - **Git** – Controle de versão
 - **GitHub** – Hospedagem e gerenciamento do código-fonte
+- **Vite** – Build rápido para projetos React
+- **Visual Studio Code** – Editor de código
 
 ## 💪 Como contribuir para o projeto
 
